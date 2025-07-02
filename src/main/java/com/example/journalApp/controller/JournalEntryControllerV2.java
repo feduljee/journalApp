@@ -43,7 +43,7 @@ class JournalEntryControllerV2 {
         if (journalEntry.isPresent()) {
             return new ResponseEntity<>(journalEntry.get(), HttpStatus.OK);
         }
-        return new ResponseEntity<>( HttpStatus.NOT_FOUND);cd ..
+        return new ResponseEntity<>( HttpStatus.NOT_FOUND);
     }
 
     @DeleteMapping("id/{myId}")
